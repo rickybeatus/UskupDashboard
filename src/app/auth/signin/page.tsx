@@ -106,7 +106,7 @@ export default function SignIn() {
             <div className="bg-blue-50 border border-blue-200 rounded-md p-3 text-sm text-blue-800">
               <p className="font-medium">Demo Credentials:</p>
               <p>Email: uskup@keuskupan-sby.or.id</p>
-              <p>Password: uskup2025</p>
+              <p>Password: UskupSBY2025!</p>
             </div>
           </div>
         </form>
