@@ -109,7 +109,7 @@ export default function Dashboard() {
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Dashboard Uskup Surabaya</h1>
           <p className="text-muted-foreground">
-            {getTimeGreeting()}, Mgr. Yohanes Harun Yuwono
+            {getTimeGreeting()}, Mgr. Agustinus Tri Budi Utomo
           </p>
         </div>
 

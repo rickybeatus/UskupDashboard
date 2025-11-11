@@ -15,7 +15,7 @@ async function seed() {
     update: {},
     create: {
       email: 'uskup@keuskupan-sby.or.id',
-      name: 'Mgr. Yohanes Harun Yuwono',
+      name: 'Mgr. Agustinus Tri Budi Utomo',
       role: 'bishop',
       password: hashedPassword,
       passwordSet: true
@@ -125,7 +125,7 @@ async function seed() {
       progress: 80,
       deadline: '2025-01-20',
       kategori: 'Pembangunan',
-      penanggungJawab: 'Mgr. Yohanes Harun Yuwono',
+      penanggungJawab: 'Mgr. Agustinus Tri Budi Utomo',
       createdBy: user.id
     },
     {
@@ -136,7 +136,7 @@ async function seed() {
       progress: 45,
       deadline: '2025-01-25',
       kategori: 'Pastoral',
-      penanggungJawab: 'Mgr. Yohanes Harun Yuwono',
+      penanggungJawab: 'Mgr. Agustinus Tri Budi Utomo',
       createdBy: user.id
     },
     {
@@ -147,7 +147,7 @@ async function seed() {
       progress: 90,
       deadline: '2025-01-18',
       kategori: 'Komunikasi',
-      penanggungJawab: 'Mgr. Yohanes Harun Yuwono',
+      penanggungJawab: 'Mgr. Agustinus Tri Budi Utomo',
       createdBy: user.id
     }
   ]

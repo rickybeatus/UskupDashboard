@@ -70,7 +70,7 @@ Get all agenda items with optional filtering.
       "createdAt": "2025-11-09T03:15:10.000Z",
       "updatedAt": "2025-11-09T03:15:10.000Z",
       "creator": {
-        "name": "Mgr. Yohanes Harun Yuwono",
+        "name": "Mgr. Agustinus Tri Budi Utomo",
         "email": "uskup@keuskupan-surabaya.org"
       }
     }
@@ -143,7 +143,7 @@ Get all tasks with optional filtering.
       "updatedAt": "2025-11-09T03:15:10.000Z",
       "completedAt": null,
       "creator": {
-        "name": "Mgr. Yohanes Harun Yuwono",
+        "name": "Mgr. Agustinus Tri Budi Utomo",
         "email": "uskup@keuskupan-surabaya.org"
       }
     }
@@ -449,7 +449,7 @@ Get aggregated dashboard data with caching.
         "judul": "Rapat Kuria",
         "tanggal": "2025-11-15",
         "jenis": "Kuria",
-        "creatorName": "Mgr. Yohanes Harun Yuwono"
+        "creatorName": "Mgr. Agustinus Tri Budi Utomo"
       }
     ],
     "urgentTasks": [
@@ -458,7 +458,7 @@ Get aggregated dashboard data with caching.
         "judul": "Persiapan Natal",
         "prioritas": "Tinggi",
         "status": "Dalam Proses",
-        "creatorName": "Mgr. Yohanes Harun Yuwono"
+        "creatorName": "Mgr. Agustinus Tri Budi Utomo"
       }
     ],
     "pendingNotulensi": [
@@ -466,7 +466,7 @@ Get aggregated dashboard data with caching.
         "id": "notulensi_123",
         "judul": "Rapat Kuria",
         "status": "Draft",
-        "creatorName": "Mgr. Yohanes Harun Yuwono"
+        "creatorName": "Mgr. Agustinus Tri Budi Utomo"
       }
     ],
     "lastUpdated": "2025-11-09T03:15:10.000Z"
@@ -550,7 +550,7 @@ Identify the connected user.
 ```json
 {
   "id": "user_123",
-  "name": "Mgr. Yohanes Harun Yuwono",
+  "name": "Mgr. Agustinus Tri Budi Utomo",
   "role": "bishop"
 }
 ```
@@ -607,7 +607,7 @@ User connection status updates.
 {
   "user": {
     "id": "user_123",
-    "name": "Mgr. Yohanes Harun Yuwono",
+    "name": "Mgr. Agustinus Tri Budi Utomo",
     "role": "bishop"
   },
   "timestamp": "2025-11-09T03:15:10.000Z"

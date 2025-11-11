@@ -83,7 +83,7 @@ export default function SettingsPage() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="nama">Nama Lengkap</Label>
-                    <Input id="nama" defaultValue="Mgr. Yohanes Harun Yuwono" />
+                    <Input id="nama" defaultValue="Mgr. Agustinus Tri Budi Utomo" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="gelar">Gelar</Label>

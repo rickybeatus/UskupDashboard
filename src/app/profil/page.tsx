@@ -5,12 +5,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { 
-  User, 
-  Mail, 
-  Phone, 
-  MapPin, 
-  Calendar, 
+import {
+  User,
+  Mail,
+  Phone,
+  MapPin,
+  Calendar,
   Church,
   BookOpen,
   Heart,
@@ -26,7 +26,7 @@ export default function ProfilPage() {
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Profil Uskup</h1>
           <p className="text-muted-foreground">
-            Informasi lengkap Mgr. Yohanes Harun Yuwono
+            Informasi lengkap Mgr. Agustinus Tri Budi Utomo
           </p>
         </div>
 
@@ -40,7 +40,7 @@ export default function ProfilPage() {
               </Avatar>
               <div className="flex-1 space-y-2">
                 <div className="flex items-center gap-2">
-                  <h2 className="text-2xl font-bold">Mgr. Yohanes Harun Yuwono</h2>
+                  <h2 className="text-2xl font-bold">Mgr. Agustinus Tri Budi Utomo</h2>
                   <Badge className="bg-green-100 text-green-800">Aktif</Badge>
                 </div>
                 <p className="text-lg text-muted-foreground">Uskup Keuskupan Surabaya</p>
@@ -168,7 +168,7 @@ export default function ProfilPage() {
                   </div>
                 </div>
               </div>
-              
+
               <div>
                 <h4 className="font-semibold mb-3 flex items-center gap-2">
                   <Award className="h-4 w-4" />

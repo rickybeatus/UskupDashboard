@@ -90,28 +90,28 @@ const sampleTemplates: Template[] = [
     nama: "Surat Edaran",
     kategori: "Edaran",
     deskripsi: "Template untuk surat edaran keuskupan",
-    konten: "KEUSKUPAN SURABAYA\\n\\nNomor: {nomor_surat}\\nTanggal: {tanggal}\\n\\nPerihal: {perihal}\\n\\nYth. {tujuan}\\n\\nDengan hormat,\\n\\n{isi_surat}\\n\\nDemikian edaran ini disampaikan untuk dapat dilaksanakan dengan penuh tanggung jawab.\\n\\nAtas perhatian dan kerjasamanya, kami ucapkan terima kasih.\\n\\nTuhan memberkati.\\n\\n\\nMgr. Yohanes Harun Yuwono\\nUskup Surabaya"
+    konten: "KEUSKUPAN SURABAYA\\n\\nNomor: {nomor_surat}\\nTanggal: {tanggal}\\n\\nPerihal: {perihal}\\n\\nYth. {tujuan}\\n\\nDengan hormat,\\n\\n{isi_surat}\\n\\nDemikian edaran ini disampaikan untuk dapat dilaksanakan dengan penuh tanggung jawab.\\n\\nAtas perhatian dan kerjasamanya, kami ucapkan terima kasih.\\n\\nTuhan memberkati.\\n\\n\\nMgr. Agustinus Tri Budi Utomo\\nUskup Surabaya"
   },
   {
     id: "2",
     nama: "Surat Undangan",
     kategori: "Undangan",
     deskripsi: "Template untuk surat undangan rapat/pertemuan",
-    konten: "KEUSKUPAN SURABAYA\\n\\nNomor: {nomor_surat}\\nTanggal: {tanggal}\\n\\nPerihal: Undangan {acara}\\n\\nYth. {tujuan}\\n\\nDengan hormat,\\n\\nBersama ini kami mengundang Saudara/i untuk menghadiri:\\n\\nAcara: {acara}\\nHari/Tanggal: {tanggal_acara}\\nWaktu: {waktu}\\nTempat: {tempat}\\n\\n{isi_surat}\\n\\nDemikian undangan ini kami sampaikan. Atas kehadiran Saudara/i kami ucapkan terima kasih.\\n\\nTuhan memberkati.\\n\\n\\nMgr. Yohanes Harun Yuwono\\nUskup Surabaya"
+    konten: "KEUSKUPAN SURABAYA\\n\\nNomor: {nomor_surat}\\nTanggal: {tanggal}\\n\\nPerihal: Undangan {acara}\\n\\nYth. {tujuan}\\n\\nDengan hormat,\\n\\nBersama ini kami mengundang Saudara/i untuk menghadiri:\\n\\nAcara: {acara}\\nHari/Tanggal: {tanggal_acara}\\nWaktu: {waktu}\\nTempat: {tempat}\\n\\n{isi_surat}\\n\\nDemikian undangan ini kami sampaikan. Atas kehadiran Saudara/i kami ucapkan terima kasih.\\n\\nTuhan memberkati.\\n\\n\\nMgr. Agustinus Tri Budi Utomo\\nUskup Surabaya"
   },
   {
     id: "3",
     nama: "Surat Rekomendasi",
     kategori: "Rekomendasi",
     deskripsi: "Template untuk surat rekomendasi",
-    konten: "KEUSKUPAN SURABAYA\\n\\nNomor: {nomor_surat}\\nTanggal: {tanggal}\\n\\nPerihal: Surat Rekomendasi\\n\\nYth. {tujuan}\\n\\nDengan hormat,\\n\\nBerdasarkan {alasan_rekomendasi}, dengan ini kami memberikan rekomendasi untuk {tujuan_rekomendasi}.\\n\\n{isi_surat}\\n\\nDemikian surat rekomendasi ini kami buat untuk dapat dipergunakan sebagaimana mestinya.\\n\\nTuhan memberkati.\\n\\n\\nMgr. Yohanes Harun Yuwono\\nUskup Surabaya"
+    konten: "KEUSKUPAN SURABAYA\\n\\nNomor: {nomor_surat}\\nTanggal: {tanggal}\\n\\nPerihal: Surat Rekomendasi\\n\\nYth. {tujuan}\\n\\nDengan hormat,\\n\\nBerdasarkan {alasan_rekomendasi}, dengan ini kami memberikan rekomendasi untuk {tujuan_rekomendasi}.\\n\\n{isi_surat}\\n\\nDemikian surat rekomendasi ini kami buat untuk dapat dipergunakan sebagaimana mestinya.\\n\\nTuhan memberkati.\\n\\n\\nMgr. Agustinus Tri Budi Utomo\\nUskup Surabaya"
   },
   {
     id: "4",
     nama: "Surat Persetujuan",
     kategori: "Persetujuan",
     deskripsi: "Template untuk surat persetujuan",
-    konten: "KEUSKUPAN SURABAYA\\n\\nNomor: {nomor_surat}\\nTanggal: {tanggal}\\n\\nPerihal: Surat Persetujuan\\n\\nYth. {tujuan}\\n\\nDengan hormat,\\n\\nSetelah melakukan penilaian dan pertimbangan, dengan ini kami memberikan persetujuan untuk {kegiatan}.\\n\\n{isi_surat}\\n\\nDemikian surat persetujuan ini kami buat untuk dapat dilaksanakan dengan penuh tanggung jawab.\\n\\nTuhan memberkati.\\n\\n\\nMgr. Yohanes Harun Yuwono\\nUskup Surabaya"
+    konten: "KEUSKUPAN SURABAYA\\n\\nNomor: {nomor_surat}\\nTanggal: {tanggal}\\n\\nPerihal: Surat Persetujuan\\n\\nYth. {tujuan}\\n\\nDengan hormat,\\n\\nSetelah melakukan penilaian dan pertimbangan, dengan ini kami memberikan persetujuan untuk {kegiatan}.\\n\\n{isi_surat}\\n\\nDemikian surat persetujuan ini kami buat untuk dapat dilaksanakan dengan penuh tanggung jawab.\\n\\nTuhan memberkati.\\n\\n\\nMgr. Agustinus Tri Budi Utomo\\nUskup Surabaya"
   }
 ]
 
