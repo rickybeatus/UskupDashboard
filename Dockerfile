@@ -5,7 +5,6 @@ WORKDIR /app
 
 # Install all dependencies (including devDependencies for build)
 COPY package.json package-lock.json* ./
-# Ensure NODE_ENV is NOT production here so devDeps are installed
 ENV NODE_ENV=development
 RUN npm ci
 
@@ -20,7 +19,6 @@ RUN npx prisma generate
 
 # Set NODE_ENV to production for the build
 ENV NODE_ENV=production
-# Next.js build
 RUN npm run build
 
 # Stage 3: Runner
@@ -43,8 +41,12 @@ COPY --from=builder /app/next.config.ts ./next.config.ts
 COPY --from=builder /app/tsconfig.json ./tsconfig.json
 COPY --from=builder /app/src ./src
 
+# Set ownership of the execution directory to the nextjs user
+# This is crucial for SQLite and any local file operations
+RUN chown -R nextjs:nodejs /app
+
 # Create data directory for SQLite persistence
-RUN mkdir -p /app/data && chown nextjs:nodejs /app/data
+RUN mkdir -p /app/data && chown -R nextjs:nodejs /app/data
 
 USER nextjs
 

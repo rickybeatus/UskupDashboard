@@ -110,8 +110,15 @@ async function seed() {
   ]
 
   for (const agenda of agendaData) {
-    await db.agenda.create({
-      data: agenda
+    await db.agenda.upsert({
+      where: { 
+        // Using title and date as a composite "unique-ish" key for seeding
+        id: (await db.agenda.findFirst({ 
+          where: { judul: agenda.judul, tanggal: agenda.tanggal } 
+        }))?.id || 'new-agenda'
+      },
+      update: {},
+      create: agenda
     })
   }
 
@@ -153,8 +160,14 @@ async function seed() {
   ]
 
   for (const task of tasksData) {
-    await db.task.create({
-      data: task
+    await db.task.upsert({
+      where: { 
+        id: (await db.task.findFirst({ 
+          where: { judul: task.judul, deadline: task.deadline } 
+        }))?.id || 'new-task'
+      },
+      update: {},
+      create: task
     })
   }
 
@@ -182,8 +195,14 @@ async function seed() {
   ]
 
   for (const notulensi of notulensiData) {
-    await db.notulensi.create({
-      data: notulensi
+    await db.notulensi.upsert({
+      where: { 
+        id: (await db.notulensi.findFirst({ 
+          where: { judul: notulensi.judul, tanggal: notulensi.tanggal } 
+        }))?.id || 'new-notulensi'
+      },
+      update: {},
+      create: notulensi
     })
   }
 
@@ -212,8 +231,14 @@ async function seed() {
   ]
 
   for (const decision of decisionsData) {
-    await db.decision.create({
-      data: decision
+    await db.decision.upsert({
+      where: { 
+        id: (await db.decision.findFirst({ 
+          where: { judul: decision.judul, targetDate: decision.targetDate } 
+        }))?.id || 'new-decision'
+      },
+      update: {},
+      create: decision
     })
   }
 
