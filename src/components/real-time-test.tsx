@@ -6,11 +6,11 @@ import { Input } from '@/components/ui/input'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { useSocket } from '@/hooks/useSocket'
-import { useSession } from 'next-auth/react'
+import { useCurrentUser } from '@/hooks/useAuth'
 import { Send, Users, MessageCircle, Bell, RefreshCw } from 'lucide-react'
 
 export function RealTimeTest() {
-  const { data: session } = useSession()
+  const { user: session } = useCurrentUser()
   const {
     isConnected,
     connectedUsers,
@@ -22,9 +22,9 @@ export function RealTimeTest() {
     sendDataUpdate
   } = useSocket({
     autoConnect: true,
-    userId: session?.user?.id,
-    userName: session?.user?.name,
-    userRole: session?.user?.role
+    userId: session?.id,
+    userName: session?.name,
+    userRole: session?.role
   })
 
   const [testMessage, setTestMessage] = useState('')
@@ -84,7 +84,7 @@ export function RealTimeTest() {
               <Badge variant="outline">{connectedUsers.length}</Badge>
             </div>
             <div className="text-xs text-muted-foreground">
-              ID: {session?.user?.id || 'N/A'}
+              ID: {session?.id || 'N/A'}
             </div>
           </div>
         </CardContent>
